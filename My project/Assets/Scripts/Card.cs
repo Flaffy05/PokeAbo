@@ -28,5 +28,5 @@ public class attack {
 
 }
     
-    public enum Element {Erba, Fuoco, Acqua, Elettro, Buio, Lotta, Neutro, Metallo}; 
-public enum Status {Avvelenato, Stunnato, Stanco};  //booooooh
+    public enum Element {Erba, Fuoco, Acqua, Elettro, Oscurità, Lotta, Neutro, Metallo, Luce}; 
+public enum Status {Avvelenato, Stunnato, Stanco, Normale};  //booooooh
