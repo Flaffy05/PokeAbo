@@ -1,7 +1,7 @@
 using UnityEngine;
 
 
-[CreateAssetMenu(fileName = "Pokemons new card", menuName = "Standard Card")]
+[CreateAssetMenu(fileName = "Fallitis new card", menuName = "Standard Card")]
 public class Card : ScriptableObject
 {
     
@@ -24,7 +24,7 @@ public class attack {
         public int damage = 0;
         public Element attackElement;
         public string description;
-        public int elementCost;
+        public int cost;
 
 }
     
