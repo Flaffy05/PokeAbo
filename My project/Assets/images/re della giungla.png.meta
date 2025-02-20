@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ead6d0a15b5dc2f4d995228b395c032b
+guid: 0056e2615a0639f40bbc280fdf3d0a36
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4016019207610316755
-    second: Taxi Reale_0
+      213: 8778668809520460779
+    second: re della giungla_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Taxi Reale_0
+      name: re della giungla_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1792
-        height: 1024
+        width: 1433
+        height: 819
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d732c80134cbb730800000000000000
-      internalID: 4016019207610316755
+      spriteID: be3b44855c814d970800000000000000
+      internalID: 8778668809520460779
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Taxi Reale_0: 4016019207610316755
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
