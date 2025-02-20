@@ -9,7 +9,8 @@ public class Card : ScriptableObject
 {
     private static int cardIcCount = 0;
     public int cardId = ++cardIcCount;
-
+    public Element element;
+    public Status status;
     public string displayName;
     public int hp;
     
