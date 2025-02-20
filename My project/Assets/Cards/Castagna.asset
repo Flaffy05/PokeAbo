@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
-  m_Name: minitaxi
+  m_Name: Castagna
   m_EditorClassIdentifier: 
-  cardId: 1
+  cardId: 6
   element: {fileID: 0}
   status: {fileID: 0}
-  displayName: Mini Taxi
-  hp: 70
-  photo: {fileID: -4624149821730167866, guid: 61673a96d60f5be4986419e246526d5a, type: 3}
+  displayName: Castagna
+  hp: 40
+  photo: {fileID: -2401222708840175956, guid: c077b8eb2b52c3148bd841ba763afa5e, type: 3}
   attacchi:
-  - name: Rimozione Chiavi
+  - name: Vendesi
     damage: 20
     description: 
     elementCost: 1

@@ -10,17 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
-  m_Name: minitaxi
+  m_Name: taxi droide
   m_EditorClassIdentifier: 
-  cardId: 1
+  cardId: 4
   element: {fileID: 0}
   status: {fileID: 0}
-  displayName: Mini Taxi
-  hp: 70
-  photo: {fileID: -4624149821730167866, guid: 61673a96d60f5be4986419e246526d5a, type: 3}
+  displayName: Taxi droide
+  hp: 150
+  photo: {fileID: -236738319079407334, guid: 9cf14c9912929fc468fe8fd5105f4ada, type: 3}
   attacchi:
-  - name: Rimozione Chiavi
-    damage: 20
+  - name: Partenza in retro
+    damage: 70
     description: 
-    elementCost: 1
+    elementCost: 2
+    enflictStatus: 
+  - name: Taxi Full
+    damage: 110
+    description: 
+    elementCost: 4
     enflictStatus: 

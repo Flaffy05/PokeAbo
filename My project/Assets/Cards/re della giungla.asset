@@ -10,17 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
-  m_Name: minitaxi
+  m_Name: re della giungla
   m_EditorClassIdentifier: 
-  cardId: 1
+  cardId: 5
   element: {fileID: 0}
   status: {fileID: 0}
-  displayName: Mini Taxi
-  hp: 70
-  photo: {fileID: -4624149821730167866, guid: 61673a96d60f5be4986419e246526d5a, type: 3}
+  displayName: Re della giungla
+  hp: 100
+  photo: {fileID: 8778668809520460779, guid: 0056e2615a0639f40bbc280fdf3d0a36, type: 3}
   attacchi:
-  - name: Rimozione Chiavi
-    damage: 20
+  - name: sbomberata
+    damage: 30
     description: 
     elementCost: 1
+    enflictStatus: 
+  - name: arrampicata
+    damage: 90
+    description: 
+    elementCost: 3
     enflictStatus: 
