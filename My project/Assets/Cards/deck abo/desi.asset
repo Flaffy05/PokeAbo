@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
+  m_Name: desi
+  m_EditorClassIdentifier: 
+  cardId: 9
+  element: {fileID: 11400000, guid: eaed73ab5ccbc304bbb52ee9db77d457, type: 2}
+  status: {fileID: 0}
+  displayName: Desi
+  hp: 70
+  photo: {fileID: 7891169277173088548, guid: 9b06be91507b9d94e948e7aa7f8a5fa7, type: 3}
+  attacchi:
+  - name: Autostop
+    damage: 30
+    description: 
+    elementCost: 1
+    enflictStatus: 

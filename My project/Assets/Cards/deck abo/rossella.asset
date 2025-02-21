@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
+  m_Name: rossella
+  m_EditorClassIdentifier: 
+  cardId: 12
+  element: {fileID: 11400000, guid: 2e9ee4ad9de3acc42871cc2da05d0b41, type: 2}
+  status: {fileID: 0}
+  displayName: Rossella
+  hp: 180
+  photo: {fileID: 8647889314853639481, guid: 35d81ab0c25abd14aa7202edbc4b843f, type: 3}
+  attacchi:
+  - name: PMP NAT
+    damage: 45
+    description: 
+    elementCost: 1
+    enflictStatus: 
+  - name: Toccata Malware
+    damage: 130
+    description: 
+    elementCost: 4
+    enflictStatus: 
