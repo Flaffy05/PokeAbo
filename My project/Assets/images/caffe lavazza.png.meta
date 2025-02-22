@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      caffe lavazza_0: 7426564918501646756
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
