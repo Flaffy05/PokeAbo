@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6ac01d8bd68c2c24cb5674b6f1972ac7
+guid: 0cd66b44ed2f0004c8dbc32c64df3c65
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4143223784415494320
-    second: fulmine_0
+      213: -4841259934135821534
+    second: informatica_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fulmine_0
+      name: informatica_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 321
-        height: 465
+        width: 273
+        height: 388
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b009078410bf7930800000000000000
-      internalID: 4143223784415494320
+      spriteID: 22bd0807db360dcb0800000000000000
+      internalID: -4841259934135821534
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      fulmine_0: 4143223784415494320
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

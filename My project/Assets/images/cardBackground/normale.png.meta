@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2c24b05006a3db242ae67d61784b5f07
+guid: 05a9a5b078708bf429d0670452ce8bde
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5745524384883011614
-    second: erba_0
+      213: 829474644324634783
+    second: normale 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: erba_0
+      name: normale 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 330
-        height: 469
+        width: 273
+        height: 394
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ef04b6530cc340b0800000000000000
-      internalID: -5745524384883011614
+      spriteID: f90d9255bc2e28b00800000000000000
+      internalID: 829474644324634783
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      erba_0: -5745524384883011614
+      normale 1_0: 829474644324634783
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
