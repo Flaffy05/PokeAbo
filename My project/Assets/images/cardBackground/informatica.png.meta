@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0656b22ba7a9e1c4bbbf32aab1453b14
+guid: 7621d48d090211f4599d25e7dc8d1845
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2360307209756017748
-    second: luce_0
+      213: -4841259934135821534
+    second: informatica_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: luce_0
+      name: informatica_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 309
-        height: 442
+        width: 1000
+        height: 1421
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4540d4ed6ee71c020800000000000000
-      internalID: 2360307209756017748
+      spriteID: 22bd0807db360dcb0800000000000000
+      internalID: -4841259934135821534
       vertices: []
       indices: 
       edges: []
