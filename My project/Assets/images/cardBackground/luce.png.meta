@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dd01e413835a0d049b4f67674d7dd842
+guid: d32f206d48e7d3d4bbe2672aa7fe90c3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2360307209756017748
-    second: luce_0
+      213: -3651412924480490637
+    second: luce (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: luce_0
+      name: luce (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1000
-        height: 1430
+        width: 4000
+        height: 5720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4540d4ed6ee71c020800000000000000
-      internalID: 2360307209756017748
+      spriteID: 373f11c8a43935dc0800000000000000
+      internalID: -3651412924480490637
       vertices: []
       indices: 
       edges: []
@@ -147,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      luce (1)_0: -3651412924480490637
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
