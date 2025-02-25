@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
+  m_Name: Tick
+  m_EditorClassIdentifier: 
+  cardId: 41
+  element: {fileID: 11400000, guid: c8a99e31866556548b8694b796adb6a1, type: 2}
+  status: {fileID: 0}
+  displayName: Tick
+  hp: 60
+  photo: {fileID: -6003790659568977904, guid: a31d71631b2480c44a9679ecc55b179f, type: 3}
+  attacchi:
+  - name: Mini bombe
+    damage: 10
+    description: attacca una carta nella panchina avversaria
+    elementCost: 1
+    enflictStatus: 
+  - name: Testa espolosiva
+    damage: 50
+    description: toglie 10 di dannoa a questa carta
+    elementCost: 2
+    enflictStatus: 

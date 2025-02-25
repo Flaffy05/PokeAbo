@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
+  m_Name: Elettro Warrior
+  m_EditorClassIdentifier: 
+  cardId: 20
+  element: {fileID: 11400000, guid: c4d395baeb6e9744daa61a8f782d6b5a, type: 2}
+  status: {fileID: 0}
+  displayName: Elettro Warrior
+  hp: 110
+  photo: {fileID: -2213965697630788265, guid: 8d9f91d3be3b6a541853b79b2288b094, type: 3}
+  attacchi:
+  - name: Scarica
+    damage: 60
+    description: Tiri una moneta e se esce croce l'attacco non va a segno
+    elementCost: 2
+    enflictStatus: 
+  - name: Fendente
+    damage: 70
+    description: Tiri una moneta e se esce testa l'avversario viene stunnato per
+      1 turno
+    elementCost: 3
+    enflictStatus: 

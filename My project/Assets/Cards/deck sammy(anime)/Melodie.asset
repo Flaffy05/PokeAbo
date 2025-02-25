@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
+  m_Name: Melodie
+  m_EditorClassIdentifier: 
+  cardId: 33
+  element: {fileID: 11400000, guid: eaed73ab5ccbc304bbb52ee9db77d457, type: 2}
+  status: {fileID: 0}
+  displayName: Melodie
+  hp: 80
+  photo: {fileID: 5409889976269426113, guid: 156c46a6ce13e4548974776ab0eacf54, type: 3}
+  attacchi:
+  - name: Nota
+    damage: 20
+    description: Assegna un'energia a una qualsiasi carta in campo
+    elementCost: 1
+    enflictStatus: 
+  - name: 'Dashata '
+    damage: 40
+    description: 
+    elementCost: 3
+    enflictStatus: 

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
+  m_Name: Maliketh
+  m_EditorClassIdentifier: 
+  cardId: 30
+  element: {fileID: 11400000, guid: 73a8d653979c2e4469071f6ef26d6a43, type: 2}
+  status: {fileID: 0}
+  displayName: Maliketh
+  hp: 130
+  photo: {fileID: 6841562932450076747, guid: 57f12329a4be9fe4896ca6313206b11a, type: 3}
+  attacchi:
+  - name: Schiacciata
+    damage: 50
+    description: 
+    elementCost: 2
+    enflictStatus: 
+  - name: Combo Mortale
+    damage: 100
+    description: avvelena il tuo avversario per 1 turno
+    elementCost: 3
+    enflictStatus: Avvelenato
