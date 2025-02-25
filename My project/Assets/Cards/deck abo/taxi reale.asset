@@ -17,7 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Taxi Reale
   hp: 100
-  photo: {fileID: 4016019207610316755, guid: ead6d0a15b5dc2f4d995228b395c032b, type: 3}
+  photo: {fileID: 3567515561194873870, guid: ead6d0a15b5dc2f4d995228b395c032b, type: 3}
   attacchi:
   - name: Finta
     damage: 40
