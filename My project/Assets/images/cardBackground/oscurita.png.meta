@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7fb408d378fabad49a6332b8b4af73e7
+guid: 076a2cf6cf602ea4bb98414030a0b007
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -457246482157548785
-    second: oscurita (1)_0
+      213: -3402640452737354731
+    second: oscurita 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oscurita (1)_0
+      name: oscurita 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 4000
-        height: 5764
+        height: 5700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0bc3304fb887a9f0800000000000000
-      internalID: -457246482157548785
+      spriteID: 5143734498467c0d0800000000000000
+      internalID: -3402640452737354731
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      oscurita (1)_0: -457246482157548785
+      oscurita 1_0: -3402640452737354731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

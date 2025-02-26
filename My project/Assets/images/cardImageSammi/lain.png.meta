@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 156c46a6ce13e4548974776ab0eacf54
+guid: 25d7a350790899945afd75ad319566c4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5409889976269426113
-    second: melodie_0
+      213: -6345128897874234417
+    second: lain_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: melodie_0
+      name: lain_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1350
-        height: 900
+        width: 1344
+        height: 896
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1cd4c75454ac31b40800000000000000
-      internalID: 5409889976269426113
+      spriteID: fc3f324a2e291f7a0800000000000000
+      internalID: -6345128897874234417
       vertices: []
       indices: 
       edges: []
@@ -134,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lain_0: -6345128897874234417
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

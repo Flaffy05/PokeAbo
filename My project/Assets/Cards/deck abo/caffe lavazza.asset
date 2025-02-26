@@ -21,6 +21,6 @@ MonoBehaviour:
   attacchi:
   - name: Riunione
     damage: 20
-    description: Carta effetto -toglie danni a tutti-
+    description: toglie danni a tutti
     elementCost: 0
     enflictStatus: 

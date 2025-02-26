@@ -3,8 +3,8 @@ guid: dfd081ed4d50fa842bc125847f4be771
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9018338282004341241
-    second: fuoco (1)_0
+      213: -1072255401608455652
+    second: fuoco_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fuoco (1)_0
+      name: fuoco_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 4000
-        height: 5712
+        height: 5700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70e13dc1d1d68d280800000000000000
-      internalID: -9018338282004341241
+      spriteID: c1a52aea4659e11f0800000000000000
+      internalID: -1072255401608455652
       vertices: []
       indices: 
       edges: []
@@ -134,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      fuoco (1)_0: -9018338282004341241
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

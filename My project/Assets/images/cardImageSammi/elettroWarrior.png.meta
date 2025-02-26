@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 01b1f08adb7157a45809a0ac35664a2e
+guid: 8d9f91d3be3b6a541853b79b2288b094
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7954782225898056569
-    second: rikaEX_0
+      213: -2213965697630788265
+    second: elettroWarrior_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rikaEX_0
+      name: elettroWarrior_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1959
-        height: 1306
+        width: 1344
+        height: 896
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97bae38c940156e60800000000000000
-      internalID: 7954782225898056569
+      spriteID: 75521d79de96641e0800000000000000
+      internalID: -2213965697630788265
       vertices: []
       indices: 
       edges: []
@@ -134,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      elettroWarrior_0: -2213965697630788265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

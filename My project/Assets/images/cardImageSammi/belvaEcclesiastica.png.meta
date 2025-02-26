@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c447712018bc4e645a032134cb529c61
+guid: 9166b2a60f161e44e87483705d84defb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -384172607175051
-    second: lupin_0
+      213: -1863453904988854569
+    second: belvaEcclesiastica_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lupin_0
+      name: belvaEcclesiastica_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1344
-        height: 896
+        width: 5760
+        height: 3840
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5768738d892aefff0800000000000000
-      internalID: -384172607175051
+      spriteID: 7d623d1eb8ea326e0800000000000000
+      internalID: -1863453904988854569
       vertices: []
       indices: 
       edges: []
@@ -134,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      belvaEcclesiastica_0: -1863453904988854569
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
