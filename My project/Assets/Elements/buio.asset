@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: buio
   m_EditorClassIdentifier: 
   weakness: {fileID: 11400000, guid: 2e9ee4ad9de3acc42871cc2da05d0b41, type: 2}
-  background: {fileID: 0}
+  background: {fileID: -3402640452737354731, guid: 076a2cf6cf602ea4bb98414030a0b007, type: 3}
   logo: {fileID: 1387713507919885235, guid: f03495193c7dbb24fb76be1a585d98d5, type: 3}

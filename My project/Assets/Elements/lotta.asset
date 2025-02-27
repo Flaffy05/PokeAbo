@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: lotta
   m_EditorClassIdentifier: 
   weakness: {fileID: 11400000, guid: 165b3f326533c9b45bd04b8e86ace1e8, type: 2}
-  background: {fileID: 0}
+  background: {fileID: -7083980276314209150, guid: dc91035c3e8eae84d999871766de9b06, type: 3}
   logo: {fileID: 5694394121666023894, guid: 6519ce2b6ae4d8643ab65619f8729ab1, type: 3}

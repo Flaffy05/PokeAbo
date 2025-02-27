@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: normale
   m_EditorClassIdentifier: 
   weakness: {fileID: 11400000, guid: c8a99e31866556548b8694b796adb6a1, type: 2}
-  background: {fileID: 0}
+  background: {fileID: 829474644324634783, guid: 100f477370146cb44a642bd167623fc7, type: 3}
   logo: {fileID: 4060820294401565641, guid: 73f7021fb36b6d04fb1ffff6309ad0fa, type: 3}

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: erba
   m_EditorClassIdentifier: 
   weakness: {fileID: 11400000, guid: 73a8d653979c2e4469071f6ef26d6a43, type: 2}
-  background: {fileID: 0}
+  background: {fileID: -5745524384883011614, guid: 5ad8e9ac8b06f934da90b142b6357bd0, type: 3}
   logo: {fileID: -5745524384883011614, guid: babf04077fb67a642b92d7ef36b4cf72, type: 3}

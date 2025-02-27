@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: fuoco
   m_EditorClassIdentifier: 
   weakness: {fileID: 11400000, guid: a5e83db22695af346ab4b00fc6cdef59, type: 2}
-  background: {fileID: 0}
+  background: {fileID: -1072255401608455652, guid: dfd081ed4d50fa842bc125847f4be771, type: 3}
   logo: {fileID: -1072255401608455652, guid: ed1be4df27ae3fe4ca2b424ae7ead39b, type: 3}

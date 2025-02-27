@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: acqua
   m_EditorClassIdentifier: 
   weakness: {fileID: 11400000, guid: c4d395baeb6e9744daa61a8f782d6b5a, type: 2}
-  background: {fileID: 0}
+  background: {fileID: 7535381299231262475, guid: 714ac290006f21848929c8d192cbfa52, type: 3}
   logo: {fileID: 7535381299231262475, guid: 615c046e72435dd4e98a5cca02c74f71, type: 3}

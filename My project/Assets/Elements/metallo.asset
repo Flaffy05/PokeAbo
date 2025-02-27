@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: metallo
   m_EditorClassIdentifier: 
   weakness: {fileID: 11400000, guid: 2e9ee4ad9de3acc42871cc2da05d0b41, type: 2}
-  background: {fileID: 0}
+  background: {fileID: -4203536271282321478, guid: 237e4d5202e0b1f4f8cb8d41fed8aa60, type: 3}
   logo: {fileID: -4203536271282321478, guid: 07007721110305a499434b55b2b282fb, type: 3}

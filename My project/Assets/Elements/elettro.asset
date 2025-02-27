@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: elettro
   m_EditorClassIdentifier: 
   weakness: {fileID: 11400000, guid: 022d2f242cb94fd4692395781a57d50b, type: 2}
-  background: {fileID: 0}
+  background: {fileID: 4143223784415494320, guid: 250eaf09685d3214f9b391e61eacd68d, type: 3}
   logo: {fileID: -2834904879844833940, guid: f877436ba2114e0419e8aeaffb0f98a1, type: 3}

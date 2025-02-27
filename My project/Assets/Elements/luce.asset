@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: luce
   m_EditorClassIdentifier: 
   weakness: {fileID: 11400000, guid: eaed73ab5ccbc304bbb52ee9db77d457, type: 2}
-  background: {fileID: 0}
+  background: {fileID: 2680450574196168028, guid: c585e4eecc262454f84d339c41f3d107, type: 3}
   logo: {fileID: 2360307209756017748, guid: c68500fe307fe59489e0c0ab9d86dd7f, type: 3}

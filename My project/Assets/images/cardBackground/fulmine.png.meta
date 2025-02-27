@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fulmine_0: 4143223784415494320
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
