@@ -13,19 +13,14 @@ MonoBehaviour:
   m_Name: cartografo
   m_EditorClassIdentifier: 
   cardId: 8
-  element: {fileID: 11400000, guid: 884147a6d21fb5b44bdfae23c6a96ac5, type: 2}
+  element: {fileID: 0}
   status: {fileID: 0}
   displayName: Cartografo
   hp: 90
   photo: {fileID: 7789909023716200631, guid: 3f27669688cb95049b330ce72e84518f, type: 3}
   attacchi:
   - name: Rollata
-    damage: 40
-    description: 
-    elementCost: 2
-    enflictStatus: 
-  - name: Intimidazione Raziale
-    damage: 90
-    description: 
-    elementCost: 4
+    damage: 0
+    description: Guadagni 3 energie dell'elemento della carta piu forte in mano
+    elementCost: 0
     enflictStatus: 

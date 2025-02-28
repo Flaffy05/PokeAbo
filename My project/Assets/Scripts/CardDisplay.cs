@@ -15,6 +15,8 @@ public class CardDisplay : MonoBehaviour
     private Sprite cardBackground;
     private Sprite element;
     private Sprite cardSprite;
+    private Sprite CardWeakness;
+    private Element CardWeaknessElement;
 
     public Image weakness;
     public Image retreatImage;
@@ -48,13 +50,16 @@ public class CardDisplay : MonoBehaviour
         attackElement[0].sprite = attackElementSprite;
         attackElement[1].color = new Color(1,1,1,0);
 
-
+        CardWeaknessElement=elementData.weakness;
+        CardWeakness = CardWeaknessElement.logo;
         cardBackground = elementData.background;
         cardSprite = cardData.photo;
         
-
+        
+        weakness.sprite=CardWeakness;
         backgroundImage.sprite = cardBackground;
         cardImage.sprite = cardSprite;
+        retreatImage.sprite=attackElementSprite; //booo
 
 
         if (cardData.attacchi[1]!=null)

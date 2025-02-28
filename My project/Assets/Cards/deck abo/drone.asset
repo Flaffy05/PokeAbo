@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: drone
   m_EditorClassIdentifier: 
   cardId: 13
-  element: {fileID: 11400000, guid: 165b3f326533c9b45bd04b8e86ace1e8, type: 2}
+  element: {fileID: 11400000, guid: eaed73ab5ccbc304bbb52ee9db77d457, type: 2}
   status: {fileID: 0}
   displayName: Drone
   hp: 50
