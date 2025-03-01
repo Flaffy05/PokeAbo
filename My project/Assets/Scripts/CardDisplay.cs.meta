@@ -1,2 +1,20 @@
 fileFormatVersion: 2
 guid: 8dd46f4646ade5e4eb9915d26d9d9104
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - elementData: {instanceID: 0}
+  - cardData: {fileID: 11400000, guid: c2f32818c85c2e340b09b99eeb5f98d3, type: 2}
+  - weakness: {instanceID: 0}
+  - retreatImage: {instanceID: 0}
+  - cardImage: {instanceID: 0}
+  - backgroundImage: {instanceID: 0}
+  - displayName: {instanceID: 0}
+  - health: {instanceID: 0}
+  - retreatCost: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
