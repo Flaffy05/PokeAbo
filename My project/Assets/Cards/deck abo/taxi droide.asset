@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Taxi droide
   hp: 150
+  reatreatCost: 3
   photo: {fileID: -236738319079407334, guid: 9cf14c9912929fc468fe8fd5105f4ada, type: 3}
   attacchi:
   - name: Partenza in retro

@@ -13,6 +13,7 @@ public class Card : ScriptableObject
     public Status status;
     public string displayName;
     public int hp;
+    public int reatreatCost;
     
     public Sprite photo;
 

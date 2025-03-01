@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: KingKong
   hp: 100
+  reatreatCost: 2
   photo: {fileID: 21300000, guid: 0056e2615a0639f40bbc280fdf3d0a36, type: 3}
   attacchi:
   - name: sbomberata

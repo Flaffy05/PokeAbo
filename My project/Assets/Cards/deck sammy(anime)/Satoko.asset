@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Satoko
   hp: 50
+  reatreatCost: 1
   photo: {fileID: -9155599214178169179, guid: b1f078acefffca448a4acc9d18b097a0, type: 3}
   attacchi:
   - name: trappola

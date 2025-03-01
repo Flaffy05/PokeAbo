@@ -24,7 +24,7 @@ public class CardDisplay : MonoBehaviour
     public Image backgroundImage;
     public TMP_Text displayName;
     public TMP_Text health;
-    //public TMP_Text retreatCost;
+    public TMP_Text retreatCost;
     public TMP_Text[] attackName;
     public TMP_Text[] attackDamage;
     public TMP_Text[] attackDescription;
@@ -38,9 +38,26 @@ public class CardDisplay : MonoBehaviour
     }
     public void UpdateCardDisplay()
     {
+
+
+
         elementData = cardData.element;
+        if(elementData.colorWhite){
+            displayName.color=new Color(255,255,255,255);
+            health.color=new Color(255,255,255,255);
+            retreatCost.color=new Color(255,255,255,255);
+            attackName[0].color=new Color(255,255,255,255);
+            attackDamage[0].color=new Color(255,255,255,255);
+            attackDescription[0].color=new Color(255,255,255,255);
+            attackCost[0].color=new Color(255,255,255,255);
+            attackName[1].color=new Color(255,255,255,255);
+            attackDamage[1].color=new Color(255,255,255,255);
+            attackDescription[1].color=new Color(255,255,255,255);
+            attackCost[1].color=new Color(255,255,255,255); 
+        }
 
         displayName.text = cardData.displayName;
+        retreatCost.text=cardData.reatreatCost.ToString();
         health.text = cardData.hp.ToString();
         attackName[0].text = cardData.attacchi[0].name;
         attackDamage[0].text = cardData.attacchi[0].damage.ToString();
@@ -59,10 +76,10 @@ public class CardDisplay : MonoBehaviour
         weakness.sprite=CardWeakness;
         backgroundImage.sprite = cardBackground;
         cardImage.sprite = cardSprite;
-        retreatImage.sprite=attackElementSprite; //booo
+        retreatImage.sprite=attackElementSprite; 
 
 
-        if (cardData.attacchi[1]!=null)
+        if (cardData.attacchi.Length>1)
         {
             attackName[1].text = cardData.attacchi[1].name;
             attackDamage[1].text = cardData.attacchi[1].damage.ToString();

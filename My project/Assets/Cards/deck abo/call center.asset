@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Call Center
   hp: 110
+  reatreatCost: 2
   photo: {fileID: 4457334683789913731, guid: dc2a74d00c1c790458387394f0831956, type: 3}
   attacchi:
   - name: Keto Spam

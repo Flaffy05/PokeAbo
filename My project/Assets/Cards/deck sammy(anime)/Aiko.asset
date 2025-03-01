@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Aiko
   hp: 70
+  reatreatCost: 1
   photo: {fileID: 1946616899417843405, guid: 5626da9a113dafe4ea0bdf23f27558ed, type: 3}
   attacchi:
   - name: Slegata

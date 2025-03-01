@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: caffe lavazza
   m_EditorClassIdentifier: 
   cardId: 10
-  element: {fileID: 0}
+  element: {fileID: 11400000, guid: 95a432306426923479708b4773d826c2, type: 2}
   status: {fileID: 0}
   displayName: Caffe Lavazza
   hp: 0
+  reatreatCost: 0
   photo: {fileID: 7426564918501646756, guid: 5581e434ba361dc419219aa78556d0ab, type: 3}
   attacchi:
   - name: Riunione

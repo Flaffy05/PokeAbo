@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Tick
   hp: 60
+  reatreatCost: 1
   photo: {fileID: -6003790659568977904, guid: a31d71631b2480c44a9679ecc55b179f, type: 3}
   attacchi:
   - name: Mini bombe

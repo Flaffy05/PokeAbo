@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: cartografo
   m_EditorClassIdentifier: 
   cardId: 8
-  element: {fileID: 0}
+  element: {fileID: 11400000, guid: 95a432306426923479708b4773d826c2, type: 2}
   status: {fileID: 0}
   displayName: Cartografo
-  hp: 90
+  hp: 0
+  reatreatCost: 0
   photo: {fileID: 7789909023716200631, guid: 3f27669688cb95049b330ce72e84518f, type: 3}
   attacchi:
   - name: Rollata
     damage: 0
-    description: Guadagni 3 energie dell'elemento della carta piu forte in mano
+    description: Guadagni 3 energie dell'elemento di una carta in mano
     elementCost: 0
     enflictStatus: 

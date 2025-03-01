@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Melodie
   hp: 80
+  reatreatCost: 2
   photo: {fileID: 5409889976269426113, guid: 156c46a6ce13e4548974776ab0eacf54, type: 3}
   attacchi:
   - name: Nota

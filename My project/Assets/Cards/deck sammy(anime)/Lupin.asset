@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Lupin
   m_EditorClassIdentifier: 
   cardId: 28
-  element: {fileID: 0}
+  element: {fileID: 11400000, guid: 95a432306426923479708b4773d826c2, type: 2}
   status: {fileID: 0}
-  displayName: 
+  displayName: Lupin
   hp: 0
+  reatreatCost: 0
   photo: {fileID: 0}
   attacchi:
   - name: Furto

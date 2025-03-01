@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Maliketh
   hp: 130
+  reatreatCost: 3
   photo: {fileID: 6841562932450076747, guid: 57f12329a4be9fe4896ca6313206b11a, type: 3}
   attacchi:
   - name: Schiacciata

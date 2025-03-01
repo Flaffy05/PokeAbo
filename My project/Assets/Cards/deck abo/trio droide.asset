@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Trio Droide
   hp: 80
+  reatreatCost: 2
   photo: {fileID: 2422280136731498134, guid: 9aa3bec80f409c34494c94832dc4c0d3, type: 3}
   attacchi:
   - name: Socket

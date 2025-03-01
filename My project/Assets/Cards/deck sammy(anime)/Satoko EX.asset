@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Satoko EX
   hp: 170
+  reatreatCost: 3
   photo: {fileID: -3304314786615670172, guid: a062b009d73ca5742ad648429b9650d3, type: 3}
   attacchi:
   - name: Trappola a Scatto

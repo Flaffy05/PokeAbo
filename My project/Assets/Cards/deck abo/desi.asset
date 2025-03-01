@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Desi
   hp: 70
+  reatreatCost: 1
   photo: {fileID: 7891169277173088548, guid: 9b06be91507b9d94e948e7aa7f8a5fa7, type: 3}
   attacchi:
   - name: Autostop

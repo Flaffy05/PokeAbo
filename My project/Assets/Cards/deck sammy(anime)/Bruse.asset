@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Bruse
   hp: 70
+  reatreatCost: 1
   photo: {fileID: -1083448855787178884, guid: 74d31397d8df9ef47a0071d709fae009, type: 3}
   attacchi:
   - name: Maleducazione

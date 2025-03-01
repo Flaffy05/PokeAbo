@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Drone
   hp: 50
+  reatreatCost: 1
   photo: {fileID: 9148800814639467426, guid: 114a27c99cb7b1a4d9728b7687bb19ea, type: 3}
   attacchi:
   - name: Cammata

@@ -17,9 +17,10 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Rika EX
   hp: 160
+  reatreatCost: 4
   photo: {fileID: 7954782225898056569, guid: 01b1f08adb7157a45809a0ac35664a2e, type: 3}
   attacchi:
-  - name: Destino inevitabile
+  - name: Destino
     damage: 70
     description: assegna un'energia extra a questa carta
     elementCost: 2

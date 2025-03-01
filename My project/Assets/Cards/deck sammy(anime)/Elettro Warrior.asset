@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Elettro Warrior
   hp: 110
+  reatreatCost: 3
   photo: {fileID: -2213965697630788265, guid: 8d9f91d3be3b6a541853b79b2288b094, type: 3}
   attacchi:
   - name: Scarica

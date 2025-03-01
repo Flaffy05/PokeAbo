@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Mega Drone
   hp: 120
+  reatreatCost: 3
   photo: {fileID: 2350626362179864991, guid: 3cdbc11bf643aa947929e2a100dc3027, type: 3}
   attacchi:
   - name: Cammata

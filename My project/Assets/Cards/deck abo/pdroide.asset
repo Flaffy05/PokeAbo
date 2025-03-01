@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Pdroide
   hp: 90
+  reatreatCost: 2
   photo: {fileID: -6727687980298157095, guid: 872d0f40c138c5a4585695a47a59887c, type: 3}
   attacchi:
   - name: Gianini Mode

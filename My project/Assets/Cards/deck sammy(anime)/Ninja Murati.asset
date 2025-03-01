@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Ninja Murati
   hp: 50
+  reatreatCost: 1
   photo: {fileID: 8202077883416189135, guid: c06242402d2f3ee4b90ce24c179da0ff, type: 3}
   attacchi:
   - name: "tranquillit\xE0"

@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Glory
   m_EditorClassIdentifier: 
   cardId: 22
-  element: {fileID: 11400000, guid: 2e9ee4ad9de3acc42871cc2da05d0b41, type: 2}
+  element: {fileID: 11400000, guid: 95a432306426923479708b4773d826c2, type: 2}
   status: {fileID: 0}
   displayName: Glory
   hp: 60
+  reatreatCost: 0
   photo: {fileID: -3081295664776673155, guid: 47af6de2e502d054c9ce5723c72cfe37, type: 3}
   attacchi:
   - name: Benedizione sacrificale

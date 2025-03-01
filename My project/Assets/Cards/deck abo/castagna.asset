@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Castagna
   hp: 40
+  reatreatCost: 1
   photo: {fileID: -2401222708840175956, guid: c077b8eb2b52c3148bd841ba763afa5e, type: 3}
   attacchi:
   - name: Vendesi

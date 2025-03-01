@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Super Mario
   hp: 90
+  reatreatCost: 2
   photo: {fileID: -4604146857013224401, guid: a4c91df69341059459ea0dfce03e8bc6, type: 3}
   attacchi:
   - name: Fungata Puddu

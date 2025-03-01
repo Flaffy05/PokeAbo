@@ -15,3 +15,4 @@ MonoBehaviour:
   weakness: {fileID: 11400000, guid: 884147a6d21fb5b44bdfae23c6a96ac5, type: 2}
   background: {fileID: -8145387900131220592, guid: d8b4516557360ec4ab86115681e3dab8, type: 3}
   logo: {fileID: -4841259934135821534, guid: 0fa8a5157c65a2a448a6220072dc6cb0, type: 3}
+  colorWhite: 1

@@ -17,6 +17,7 @@ MonoBehaviour:
   status: {fileID: 0}
   displayName: Lain
   hp: 80
+  reatreatCost: 2
   photo: {fileID: -6345128897874234417, guid: 25d7a350790899945afd75ad319566c4, type: 3}
   attacchi:
   - name: Segnalazione
