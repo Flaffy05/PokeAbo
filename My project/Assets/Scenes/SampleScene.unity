@@ -2515,7 +2515,7 @@ MonoBehaviour:
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 128
+  m_DynamicPixelsPerUnit: 256
   m_PresetInfoIsWorld: 1
 --- !u!223 &1914807329
 Canvas:
@@ -2586,7 +2586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   elementData: {fileID: 0}
-  cardData: {fileID: 11400000, guid: c2f32818c85c2e340b09b99eeb5f98d3, type: 2}
+  cardData: {fileID: 11400000, guid: d3cb08d072667ec49bd00d9d606d7b40, type: 2}
   weakness: {fileID: 2017782585}
   retreatImage: {fileID: 638350440}
   cardImage: {fileID: 688915742}

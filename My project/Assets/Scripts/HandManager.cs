@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
-
+/*
 public class HandManager : MonoBehaviour
 {
     public GameObject cardPrefab; // assegna un prefab delle carte all'inspector
@@ -39,3 +39,4 @@ public class HandManager : MonoBehaviour
 
 
 }
+*/
