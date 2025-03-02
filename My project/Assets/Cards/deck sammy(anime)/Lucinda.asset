@@ -18,7 +18,7 @@ MonoBehaviour:
   displayName: Lucinda
   hp: 0
   reatreatCost: 0
-  photo: {fileID: 0}
+  photo: {fileID: 2211210958307743566, guid: 01696c4f9c9bbe24f8c1d40891c36b3c, type: 3}
   attacchi:
   - name: Ricerca Cicale
     damage: 0

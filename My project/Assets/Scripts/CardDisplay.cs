@@ -7,8 +7,6 @@ using TMPro;
 public class CardDisplay : MonoBehaviour 
 {
 
-    //images
-
     public Element elementData;
     public Card cardData;
 
@@ -57,17 +55,29 @@ public class CardDisplay : MonoBehaviour
         }
 
         displayName.text = cardData.displayName;
-        retreatCost.text=cardData.reatreatCost.ToString();
-        health.text = cardData.hp.ToString();
+        if(cardData.reatreatCost!=0){
+            retreatCost.text=cardData.reatreatCost.ToString();
+        }
+        if(cardData.hp!=0){
+            health.text = cardData.hp.ToString();
+        }
+        
         attackName[0].text = cardData.attacchi[0].name;
-        attackDamage[0].text = cardData.attacchi[0].damage.ToString();
+        if(cardData.attacchi[0].damage!=0){
+            attackDamage[0].text = cardData.attacchi[0].damage.ToString();
+        }
+        
         attackDescription[0].text = cardData.attacchi[0].description;
-        attackCost[0].text = cardData.attacchi[0].elementCost.ToString();
+        if(cardData.attacchi[0].elementCost!=0){
+            attackCost[0].text = cardData.attacchi[0].elementCost.ToString();
+        }
+        
         attackElementSprite = elementData.logo;
         attackElement[0].sprite = attackElementSprite;
         attackElement[1].color = new Color(1,1,1,0);
 
         CardWeaknessElement=elementData.weakness;
+        
         CardWeakness = CardWeaknessElement.logo;
         cardBackground = elementData.background;
         cardSprite = cardData.photo;

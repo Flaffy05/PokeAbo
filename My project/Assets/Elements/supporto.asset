@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa7ac9aeb7c4724a802406bf44d7398, type: 3}
   m_Name: supporto
   m_EditorClassIdentifier: 
-  weakness: {fileID: 0}
+  weakness: {fileID: 11400000}
   background: {fileID: -3783032597360806671, guid: e469da618a727f5469716d9ae3e3d54c, type: 3}
-  logo: {fileID: 0}
+  logo: {fileID: 1892640970940939479, guid: 5887abe3840e48945a64d75dbbe34769, type: 3}
   colorWhite: 0

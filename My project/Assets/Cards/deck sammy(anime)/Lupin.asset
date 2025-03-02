@@ -18,7 +18,7 @@ MonoBehaviour:
   displayName: Lupin
   hp: 0
   reatreatCost: 0
-  photo: {fileID: 0}
+  photo: {fileID: -384172607175051, guid: c447712018bc4e645a032134cb529c61, type: 3}
   attacchi:
   - name: Furto
     damage: 0

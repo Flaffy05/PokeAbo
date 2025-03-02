@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
+  m_Name: Gloria
+  m_EditorClassIdentifier: 
+  cardId: 22
+  element: {fileID: 11400000, guid: 2e9ee4ad9de3acc42871cc2da05d0b41, type: 2}
+  status: {fileID: 0}
+  displayName: Gloria
+  hp: 60
+  reatreatCost: 1
+  photo: {fileID: -3081295664776673155, guid: 47af6de2e502d054c9ce5723c72cfe37, type: 3}
+  attacchi:
+  - name: Benedizione sacrificale
+    damage: 0
+    description: Cura una tua carta a scelta di 20 ma perde 10 di vita
+    elementCost: 0
+    enflictStatus: 
