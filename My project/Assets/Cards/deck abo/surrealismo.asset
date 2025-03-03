@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
+  m_Name: surrealismo
+  m_EditorClassIdentifier: 
+  cardId: 2
+  element: {fileID: 11400000, guid: 95a432306426923479708b4773d826c2, type: 2}
+  status: {fileID: 0}
+  displayName: Surrealismo
+  hp: 0
+  reatreatCost: 0
+  photo: {fileID: -5314182894023401851, guid: 11d6837c5b68e724890c940e9527befd, type: 3}
+  attacchi:
+  - name: boooo
+    damage: 0
+    description: Confonde per 1 turno tutti i pokemon avversari e raddoppia il danno
+      dei pokemon alleati per 1 turno
+    elementCost: 0
+    enflictStatus: 
