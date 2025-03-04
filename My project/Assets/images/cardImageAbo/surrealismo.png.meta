@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      surrealismo_0: -5314182894023401851
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

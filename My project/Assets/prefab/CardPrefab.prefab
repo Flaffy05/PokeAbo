@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   elementData: {fileID: 0}
-  cardData: {fileID: 11400000, guid: 93f41bb1538f2aa40bfc728ac3f07062, type: 2}
+  cardData: {fileID: 11400000, guid: 63eb8d70025f9f54d862905c2f6d4df2, type: 2}
   weakness: {fileID: 4689046162569056769}
   retreatImage: {fileID: 4454543653739049907}
   cardImage: {fileID: 2728641299890674164}
