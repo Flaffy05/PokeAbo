@@ -22,6 +22,6 @@ MonoBehaviour:
   attacchi:
   - name: Rollata
     damage: 0
-    description: Guadagni 3 energie dell'elemento di una carta in mano
+    description: Guadagni 3 energie
     elementCost: 0
     enflictStatus: 

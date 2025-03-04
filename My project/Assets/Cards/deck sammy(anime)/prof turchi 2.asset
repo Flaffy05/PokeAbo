@@ -22,6 +22,6 @@ MonoBehaviour:
   attacchi:
   - name: attacco malware
     damage: 0
-    description: prof turchi hackera server itis
+    description: pesca due carte
     elementCost: 0
     enflictStatus: 

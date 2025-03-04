@@ -25,8 +25,8 @@ MonoBehaviour:
     description: Assegna un'energia a una qualsiasi carta in campo
     elementCost: 1
     enflictStatus: 
-  - name: 'Dashata '
-    damage: 40
+  - name: fraca_hate_you
+    damage: 999
     description: 
-    elementCost: 3
+    elementCost: 7
     enflictStatus: 

@@ -22,6 +22,7 @@ MonoBehaviour:
   attacchi:
   - name: Gianini Mode
     damage: 50
-    description: 
+    description: impossibile capire la prossima mossa di questo droide. Confonde
+      l'avversario per 2 turni
     elementCost: 2
     enflictStatus: 

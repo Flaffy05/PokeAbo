@@ -23,10 +23,10 @@ MonoBehaviour:
   - name: PMP NAT
     damage: 45
     description: 
-    elementCost: 1
+    elementCost: 2
     enflictStatus: 
   - name: Toccata Malware
     damage: 130
     description: 
-    elementCost: 4
+    elementCost: 5
     enflictStatus: 

@@ -1,4 +1,4 @@
-/*using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
@@ -8,6 +8,7 @@ public class HandManager : MonoBehaviour
     public GameObject cardPrefab; // assegna un prefab delle carte all'inspector
     public Transform handTransform; //Root della posizione della mano
     public float fanSpread = 5f;
+    public float cardSpacing=5f;
     public List<GameObject> cardsInHand= new List<GameObject>(); //tiene una lista di carte nella tua mano
 
 
@@ -23,9 +24,13 @@ public class HandManager : MonoBehaviour
 
     public void Pesca(){
        
-        GameObject newCard = Instantiate(cardPrefab, handTransform.posizione, Quaternion.identity, handTransform);
+        GameObject newCard = Instantiate(cardPrefab, handTransform.position, Quaternion.identity, handTransform);
         cardsInHand.Add(newCard);
 
+        UpdateHandVisuals();
+    }
+
+    void Update(){
         UpdateHandVisuals();
     }
      
@@ -33,10 +38,13 @@ public class HandManager : MonoBehaviour
         int cardCount = cardsInHand.Count;
         for(int i=0; i<cardCount; i++){
             float rotationAngle=(fanSpread + (i-(cardCount-1)/2f));
-            cardsInHand[i].Transform.localRotation=Quaternion.Euler(0f,0f, rotationAngle);
+            cardsInHand[i].transform.localRotation=Quaternion.Euler(0f,0f, rotationAngle);
+
+            float horizontalOffset= i*cardSpacing;
+            cardsInHand[i].transform.localPosition=new Vector3(horizontalOffset,0f,0f);
         }
      }
 
 
 }
-*/
+

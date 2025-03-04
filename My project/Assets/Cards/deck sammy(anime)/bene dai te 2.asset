@@ -13,10 +13,15 @@ MonoBehaviour:
   m_Name: bene dai te 2
   m_EditorClassIdentifier: 
   cardId: 2
-  element: {fileID: 0}
+  element: {fileID: 11400000, guid: 95a432306426923479708b4773d826c2, type: 2}
   status: {fileID: 0}
-  displayName: 
+  displayName: Bene, dai te?
   hp: 0
   reatreatCost: 0
-  photo: {fileID: 0}
-  attacchi: []
+  photo: {fileID: -8785248988313043749, guid: fa8f661aa19237a44b07b490b883120a, type: 3}
+  attacchi:
+  - name: Come va?
+    damage: 0
+    description: Cura di 40 hp la vita di tutte le carte alleate in campo
+    elementCost: 0
+    enflictStatus: 

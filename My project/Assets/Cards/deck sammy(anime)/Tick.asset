@@ -15,18 +15,18 @@ MonoBehaviour:
   cardId: 41
   element: {fileID: 11400000, guid: c8a99e31866556548b8694b796adb6a1, type: 2}
   status: {fileID: 0}
-  displayName: Tick
+  displayName: tick
   hp: 60
   reatreatCost: 1
   photo: {fileID: -6003790659568977904, guid: a31d71631b2480c44a9679ecc55b179f, type: 3}
   attacchi:
   - name: Mini bombe
     damage: 10
-    description: attacca una carta nella panchina avversaria
+    description: toglie danni a tutti
     elementCost: 1
     enflictStatus: 
   - name: Testa espolosiva
     damage: 50
-    description: toglie 10 di dannoa a questa carta
+    description: toglie 10 di danno a questa carta
     elementCost: 2
     enflictStatus: 

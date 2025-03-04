@@ -13,10 +13,15 @@ MonoBehaviour:
   m_Name: prof turchi 1
   m_EditorClassIdentifier: 
   cardId: 9
-  element: {fileID: 0}
+  element: {fileID: 11400000, guid: 95a432306426923479708b4773d826c2, type: 2}
   status: {fileID: 0}
-  displayName: 
+  displayName: prof turchi
   hp: 0
   reatreatCost: 0
-  photo: {fileID: 0}
-  attacchi: []
+  photo: {fileID: -778883131545528704, guid: b371ec8b2e58cd74b8b4da87dcabd2ae, type: 3}
+  attacchi:
+  - name: Attacco malware
+    damage: 0
+    description: pesca due carte
+    elementCost: 0
+    enflictStatus: 

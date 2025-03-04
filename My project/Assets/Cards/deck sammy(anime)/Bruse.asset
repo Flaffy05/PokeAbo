@@ -22,6 +22,6 @@ MonoBehaviour:
   attacchi:
   - name: Maleducazione
     damage: 20
-    description: 
-    elementCost: 1
+    description: fa danno x3 se esce testa
+    elementCost: 2
     enflictStatus: 

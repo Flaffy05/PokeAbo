@@ -28,5 +28,5 @@ MonoBehaviour:
   - name: Combo Mortale
     damage: 100
     description: avvelena il tuo avversario per 1 turno
-    elementCost: 3
+    elementCost: 4
     enflictStatus: Avvelenato

@@ -28,5 +28,5 @@ MonoBehaviour:
   - name: Maledizione di Oyashiro
     damage: 150
     description: Scarta 2 energie assegnate
-    elementCost: 4
+    elementCost: 5
     enflictStatus: 

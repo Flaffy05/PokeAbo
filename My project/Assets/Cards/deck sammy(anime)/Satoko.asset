@@ -21,7 +21,7 @@ MonoBehaviour:
   photo: {fileID: -9155599214178169179, guid: b1f078acefffca448a4acc9d18b097a0, type: 3}
   attacchi:
   - name: trappola
-    damage: 0
+    damage: 10
     description: "la carta attiva dell'avversario \xE8 stunnata"
     elementCost: 1
     enflictStatus: 

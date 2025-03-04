@@ -21,12 +21,12 @@ MonoBehaviour:
   photo: {fileID: 3567515561194873870, guid: ead6d0a15b5dc2f4d995228b395c032b, type: 3}
   attacchi:
   - name: Finta
-    damage: 40
-    description: 
-    elementCost: 2
+    damage: 30
+    description: assegna 1 energia a se stesso
+    elementCost: 1
     enflictStatus: 
   - name: Senza Mani
-    damage: 80
+    damage: 60
     description: 
-    elementCost: 4
+    elementCost: 3
     enflictStatus: 

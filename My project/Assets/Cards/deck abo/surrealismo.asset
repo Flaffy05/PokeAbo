@@ -22,7 +22,6 @@ MonoBehaviour:
   attacchi:
   - name: boooo
     damage: 0
-    description: Confonde per 1 turno tutti i pokemon avversari e raddoppia il danno
-      dei pokemon alleati per 1 turno
+    description: Confonde per 2 turno tutti gli avversari
     elementCost: 0
     enflictStatus: 

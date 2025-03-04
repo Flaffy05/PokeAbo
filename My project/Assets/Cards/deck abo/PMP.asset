@@ -20,8 +20,8 @@ MonoBehaviour:
   reatreatCost: 2
   photo: {fileID: 7503276166056480517, guid: 9b2d63e065d82d743a5148ad4918cbcc, type: 3}
   attacchi:
-  - name: Succhiata
+  - name: Saltello leggero
     damage: 10
-    description: toglie due energie a un pokemon avversario
+    description: toglie una energia all'avversario
     elementCost: 1
     enflictStatus: 
