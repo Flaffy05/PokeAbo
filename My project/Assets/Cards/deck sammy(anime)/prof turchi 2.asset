@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
+  m_Name: prof turchi 2
+  m_EditorClassIdentifier: 
+  cardId: 10
+  element: {fileID: 11400000, guid: 95a432306426923479708b4773d826c2, type: 2}
+  status: {fileID: 0}
+  displayName: prof turchi
+  hp: 0
+  reatreatCost: 0
+  photo: {fileID: -778883131545528704, guid: b371ec8b2e58cd74b8b4da87dcabd2ae, type: 3}
+  attacchi:
+  - name: attacco malware
+    damage: 0
+    description: prof turchi hackera server itis
+    elementCost: 0
+    enflictStatus: 
