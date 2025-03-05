@@ -12,6 +12,11 @@ public class DeckManager : MonoBehaviour
     Card[] cards=Resources.LoadAll<Card>("Deck_Droidi");
 
     allCards.AddRange(cards);
+
+    HandManager hand=FindObjectOfType<HandManager>();
+    for(int i=0;i<6;i++){
+        DrawCard(hand);
+    }
    }
 
    public void DrawCard(HandManager handManager){
