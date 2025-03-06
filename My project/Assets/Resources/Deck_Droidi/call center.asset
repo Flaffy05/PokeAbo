@@ -16,12 +16,12 @@ MonoBehaviour:
   element: {fileID: 11400000, guid: eaed73ab5ccbc304bbb52ee9db77d457, type: 2}
   status: {fileID: 0}
   displayName: Call Center
-  hp: 110
+  hp: 80
   reatreatCost: 2
   photo: {fileID: 4457334683789913731, guid: dc2a74d00c1c790458387394f0831956, type: 3}
   attacchi:
   - name: Keto Spam
-    damage: 100
+    damage: 60
     description: 
-    elementCost: 4
+    elementCost: 2
     enflictStatus: 

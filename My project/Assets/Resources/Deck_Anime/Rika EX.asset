@@ -21,12 +21,12 @@ MonoBehaviour:
   photo: {fileID: 7954782225898056569, guid: 01b1f08adb7157a45809a0ac35664a2e, type: 3}
   attacchi:
   - name: Destino
-    damage: 70
-    description: assegna un'energia extra a questa carta
+    damage: 60
+    description: 
     elementCost: 2
     enflictStatus: 
   - name: Maledizione di Oyashiro
     damage: 150
     description: Scarta 2 energie assegnate
-    elementCost: 5
+    elementCost: 4
     enflictStatus: 

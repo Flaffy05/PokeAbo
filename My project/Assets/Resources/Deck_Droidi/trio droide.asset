@@ -16,12 +16,12 @@ MonoBehaviour:
   element: {fileID: 11400000, guid: 165b3f326533c9b45bd04b8e86ace1e8, type: 2}
   status: {fileID: 0}
   displayName: Trio Droide
-  hp: 40
+  hp: 60
   reatreatCost: 2
   photo: {fileID: 2422280136731498134, guid: 9aa3bec80f409c34494c94832dc4c0d3, type: 3}
   attacchi:
   - name: Server multiclient
-    damage: 70
+    damage: 20
     description: toglie danno a tutte le carte in campo
     elementCost: 2
     enflictStatus: 

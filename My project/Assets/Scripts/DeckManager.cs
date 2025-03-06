@@ -14,7 +14,7 @@ public class DeckManager : MonoBehaviour
     allCards.AddRange(cards);
 
     HandManager hand=FindObjectOfType<HandManager>();
-    for(int i=0;i<6;i++){
+    for(int i=0;i<5;i++){
         DrawCard(hand);
     }
    }

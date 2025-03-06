@@ -22,7 +22,7 @@ MonoBehaviour:
   attacchi:
   - name: Furto
     damage: 0
-    description: Rubi due energia alla carta attiva del tuo avversario e la assegni
+    description: Rubi una energia alla carta attiva del tuo avversario e la assegni
       alla tua carta attiva
     elementCost: 0
     enflictStatus: 

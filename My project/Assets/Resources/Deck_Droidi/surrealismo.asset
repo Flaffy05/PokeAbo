@@ -22,6 +22,6 @@ MonoBehaviour:
   attacchi:
   - name: boooo
     damage: 0
-    description: Confonde per 2 turno tutti gli avversari
+    description: Confonde per 2 turni tutti gli avversari
     elementCost: 0
     enflictStatus: 

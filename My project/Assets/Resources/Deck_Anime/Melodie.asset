@@ -26,7 +26,7 @@ MonoBehaviour:
     elementCost: 1
     enflictStatus: 
   - name: fraca_hate_you
-    damage: 999
+    damage: 90
     description: 
-    elementCost: 7
+    elementCost: 4
     enflictStatus: 

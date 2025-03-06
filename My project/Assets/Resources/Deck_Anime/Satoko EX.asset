@@ -22,8 +22,8 @@ MonoBehaviour:
   attacchi:
   - name: Trappola
     damage: 70
-    description: "se la carta avversaria \xE8 avvelenata toglie 30 di danno in pi\xF9"
-    elementCost: 2
+    description: 
+    elementCost: 3
     enflictStatus: 
   - name: Frammentazione
     damage: 130

@@ -26,7 +26,7 @@ MonoBehaviour:
     elementCost: 2
     enflictStatus: 
   - name: Servizio a domicilio
-    damage: 100
+    damage: 80
     description: 
-    elementCost: 4
+    elementCost: 3
     enflictStatus: 

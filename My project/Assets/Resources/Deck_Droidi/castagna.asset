@@ -22,6 +22,6 @@ MonoBehaviour:
   attacchi:
   - name: Vendesi
     damage: 20
-    description: assegna 2 energie a una carta
+    description: assegna 1 energie a una carta in panchina
     elementCost: 1
     enflictStatus: 

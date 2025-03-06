@@ -20,7 +20,7 @@ MonoBehaviour:
   reatreatCost: 2
   photo: {fileID: -4604146857013224401, guid: a4c91df69341059459ea0dfce03e8bc6, type: 3}
   attacchi:
-  - name: Fungata Puddu
+  - name: bidello mario
     damage: 60
     description: si cura di 10 di vita
     elementCost: 3

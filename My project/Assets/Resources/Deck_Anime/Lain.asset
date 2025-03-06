@@ -16,7 +16,7 @@ MonoBehaviour:
   element: {fileID: 11400000, guid: 165b3f326533c9b45bd04b8e86ace1e8, type: 2}
   status: {fileID: 0}
   displayName: Lain
-  hp: 80
+  hp: 40
   reatreatCost: 2
   photo: {fileID: -6345128897874234417, guid: 25d7a350790899945afd75ad319566c4, type: 3}
   attacchi:

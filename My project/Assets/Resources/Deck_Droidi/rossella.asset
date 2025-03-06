@@ -16,17 +16,17 @@ MonoBehaviour:
   element: {fileID: 11400000, guid: 2e9ee4ad9de3acc42871cc2da05d0b41, type: 2}
   status: {fileID: 0}
   displayName: Rossella EX
-  hp: 180
+  hp: 160
   reatreatCost: 3
   photo: {fileID: 8647889314853639481, guid: 35d81ab0c25abd14aa7202edbc4b843f, type: 3}
   attacchi:
   - name: PMP NAT
-    damage: 45
+    damage: 50
     description: 
     elementCost: 2
     enflictStatus: 
   - name: Toccata Malware
     damage: 130
     description: 
-    elementCost: 5
+    elementCost: 4
     enflictStatus: 
