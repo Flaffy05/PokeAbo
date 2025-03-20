@@ -662,6 +662,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 732684073498967230}
+  - component: {fileID: 3231782734470631997}
   m_Layer: 0
   m_Name: playArrow
   m_TagString: Untagged
@@ -684,6 +685,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3029071853959218736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3231782734470631997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037486491384827565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f969f7f1cbace604a885ea0ea492c7ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 2699086780201594498, guid: 55ce4052875942b40a3ccf466dc82408, type: 3}
+  dotPrefab: {fileID: 1014161113963669337, guid: 34c8b829ecac50d488616eb178e47ba5, type: 3}
+  poolSize: 50
+  spacing: 50
+  arrowAngleAdjustment: 0
+  dotsToSkip: 1
 --- !u!1 &2103728356109304390
 GameObject:
   m_ObjectHideFlags: 0
