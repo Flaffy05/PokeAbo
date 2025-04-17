@@ -1,31 +1,48 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.UI;
+
 public class DeckManager : MonoBehaviour
 {
-   public List<Card> allCards = new List<Card>();
+    public List<Card> allCards = new List<Card>();
+    private int currentIndex = 0;
 
-   private int currentIndex=0;
+    void Start()
+    {
+        Card[] cards = Resources.LoadAll<Card>("Deck_Brainrot");
+        allCards.AddRange(cards);
 
-   void Start(){
-    Card[] cards=Resources.LoadAll<Card>("Deck_Droidi");
-
-    allCards.AddRange(cards);
-
-    HandManager hand=FindObjectOfType<HandManager>();
-    for(int i=0;i<5;i++){
-        DrawCard(hand);
+        HandManager hand = FindObjectOfType<HandManager>();
+        for (int i = 0; i < 5; i++)
+        {
+            DrawCard(hand);
+        }
     }
-   }
 
-   public void DrawCard(HandManager handManager){
-    if (allCards.Count==0){
-
-        return;
+    public void OnDeckSlotClicked()
+    {
+        HandManager handManager = FindObjectOfType<HandManager>();
+        if (handManager != null)
+        {
+            DrawCard(handManager);
+        }
     }
-        Card nextCard=allCards[currentIndex];
+
+    public void DrawCard(HandManager handManager)
+    {
+        if (allCards.Count == 0 || currentIndex >= allCards.Count) // Controllo se il mazzo è vuoto
+        {
+            Debug.Log("No more cards in the deck.");
+            return; // Non pesca più carte se il mazzo è vuoto
+        }
+
+        Card nextCard = allCards[currentIndex];
         handManager.Pesca(nextCard);
-        currentIndex=(currentIndex+1)%allCards.Count;
-   }
+
+        currentIndex++; // Avanza al prossimo indice
+    }
 }
+
+
+
+

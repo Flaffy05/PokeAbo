@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a29f05a3e04579f419e7c1232dac4483
+guid: 0c8bd154c56b56046aae7eea72c5b1d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3034206139368750928
-    second: GridOutline_0
+      213: 4145336725180928263
+    second: br br patapim_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GridOutline_0
+      name: br br patapim_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 452
-        height: 590
+        width: 1080
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05f3268686aab1a20800000000000000
-      internalID: 3034206139368750928
+      spriteID: 7015ac2e9c1378930800000000000000
+      internalID: 4145336725180928263
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      GridOutline_0: 3034206139368750928
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

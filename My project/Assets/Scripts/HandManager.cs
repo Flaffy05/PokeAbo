@@ -30,6 +30,14 @@ public class HandManager : MonoBehaviour
         UpdateHandVisuals();
     }
 
+    public void RemoveCardFromHand(GameObject card)
+    {
+        if (cardsInHand.Contains(card))
+        {
+            cardsInHand.Remove(card); // Rimuove la carta dalla mano
+        }
+    }
+
     void Update(){
         //UpdateHandVisuals();
     }

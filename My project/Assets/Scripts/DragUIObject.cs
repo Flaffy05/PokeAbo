@@ -1,38 +1,99 @@
 using UnityEngine;
-using UnityEngine.EventSystems; //This allows us to use Unity's event system to detect our mouse inputs
+using UnityEngine.EventSystems;
 
-public class DragUIObject : MonoBehaviour, IDragHandler, IPointerDownHandler //These classes hold the methods required to handle UI interactions that we need
+public class DragUIObject : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDragHandler
 {
     private RectTransform rectTransform;
     private Canvas canvas;
     private Vector2 originalLocalPointerPosition;
     private Vector3 originalPanelLocalPosition;
-    public float movementSensitivity = 1.0f; // Adjustable sensitivity if needed
+    public float movementSensitivity = 1.0f;
+    private CardDisplay cardDisplay;
+
+    private Transform originalParent;
+    private bool isInSlot = false; // Nuova variabile per tracciare se la carta è dentro uno slot.
+
+    private HandManager handManager; // Aggiungi il riferimento al HandManager
 
     void Awake()
     {
-        rectTransform = GetComponent<RectTransform>(); //Get the RectTransform component of the attached GameObject
-        canvas = GetComponentInParent<Canvas>(); //Get the Canvas component of the attached GameObject
+        rectTransform = GetComponent<RectTransform>();
+        canvas = GetComponentInParent<Canvas>();
+        cardDisplay = GetComponent<CardDisplay>();
+        handManager = FindObjectOfType<HandManager>(); // Trova il HandManager nella scena
     }
 
-    public void OnPointerDown(PointerEventData eventData) //This is inherited from the IPointerDownHandler class referenced above
+    public void OnPointerDown(PointerEventData eventData)
     {
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvas.GetComponent<RectTransform>(), eventData.position, eventData.pressEventCamera, out originalLocalPointerPosition); //Using the event system to detect what is clicked on
+
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvas.GetComponent<RectTransform>(), eventData.position, eventData.pressEventCamera, out originalLocalPointerPosition);
         originalPanelLocalPosition = rectTransform.localPosition;
+        originalParent = transform.parent;
     }
 
-    public void OnDrag(PointerEventData eventData) //This is inherited from the IDragHandler class referenced above
+    public void OnDrag(PointerEventData eventData)
     {
+
+        rectTransform.localScale = new Vector3(30f, 30f, 1f);
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(canvas.GetComponent<RectTransform>(), eventData.position, eventData.pressEventCamera, out Vector2 localPointerPosition))
         {
             localPointerPosition /= canvas.scaleFactor;
-
-            // Adjusting the movement based on sensitivity
             Vector3 offsetToOriginal = (localPointerPosition - originalLocalPointerPosition) * movementSensitivity;
             rectTransform.localPosition = originalPanelLocalPosition + offsetToOriginal;
-
-            // Debug output
-            Debug.Log($"Drag - LocalPointerPosition: {localPointerPosition}, Offset: {offsetToOriginal}, New Position: {rectTransform.localPosition}"); //Comment out this line if not debugging an issue, otherwise it will flood the console unnecessarily
         }
     }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+
+        GameObject[] allSlots = GameObject.FindGameObjectsWithTag("Slot");
+
+        foreach (GameObject slot in allSlots)
+        {
+            RectTransform slotRect = slot.GetComponent<RectTransform>();
+
+            if (RectTransformUtility.RectangleContainsScreenPoint(slotRect, Input.mousePosition, eventData.pressEventCamera))
+            {
+                string slotName = slot.name;
+                string cardType = cardDisplay.cardData.element.name.ToLower();
+
+                bool canPlace =
+                    (slotName == "Support" && cardType == "supporto") ||
+                    (slotName != "Support" && cardType != "supporto");
+
+                if (canPlace && slot.transform.childCount == 0)
+                {
+                    // La carta è posizionata nello slot, quindi viene bloccata
+                    transform.SetParent(slot.transform);
+                    rectTransform.position = slotRect.position;
+
+                    rectTransform.localScale = new Vector3(16f, 16f, 1f);
+                    rectTransform.sizeDelta = new Vector2(-1.5f, -0.5f);
+
+                    isInSlot = true; // Carta messa nello slot
+
+                    // Rimuovi la carta dalla mano tramite il HandManager
+                    handManager.RemoveCardFromHand(gameObject);
+
+                    return;
+                }
+            }
+        }
+
+        // Nessuno slot valido → torna alla posizione originale
+        rectTransform.localPosition = originalPanelLocalPosition;
+    }
+    
+    // Funzione per permettere di rimuovere la carta dallo slot, se necessario.
+    public void RemoveFromSlot()
+    {
+        isInSlot = false;
+        transform.SetParent(originalParent);
+    }
 }
+
+
+
+
+
+

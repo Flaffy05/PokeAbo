@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
+  m_Name: tralalero tralala
+  m_EditorClassIdentifier: 
+  cardId: 34
+  element: {fileID: 11400000, guid: a5e83db22695af346ab4b00fc6cdef59, type: 2}
+  status: {fileID: 0}
+  displayName: 'tralalero '
+  hp: 120
+  reatreatCost: 2
+  photo: {fileID: -3552972445259312756, guid: 2b8cd047ca99a3143a9cdb393416eea5, type: 3}
+  attacchi:
+  - name: 'morso '
+    damage: 20
+    description: 
+    elementCost: 1
+    enflictStatus: 
+  - name: brainrot king
+    damage: 120
+    description: 
+    elementCost: 5
+    enflictStatus: 
