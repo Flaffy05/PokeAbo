@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
-  m_Name: Br Br Patapim
+  m_Name: monkini taxini
   m_EditorClassIdentifier: 
-  cardId: 24
-  element: {fileID: 11400000, guid: 884147a6d21fb5b44bdfae23c6a96ac5, type: 2}
+  cardId: 27
+  element: {fileID: 11400000, guid: c8a99e31866556548b8694b796adb6a1, type: 2}
   status: {fileID: 0}
-  displayName: Br Br Patapim
-  hp: 150
-  reatreatCost: 3
-  photo: {fileID: 4145336725180928263, guid: 0c8bd154c56b56046aae7eea72c5b1d0, type: 3}
+  displayName: monkini taxini
+  hp: 80
+  reatreatCost: 0
+  photo: {fileID: -4026071387803741159, guid: b4f9d20516560b141945bb37393687a3, type: 3}
   attacchi:
-  - name: br br
+  - name: riparazione taxi
     damage: 0
-    description: da due energie a se stesso
+    description: assegna 2 energia a se stesso, toglie 10 di danno a se stesso
     elementCost: 1
     enflictStatus: 
-  - name: slim
-    damage: 120
-    description: cappello pieno di slim
+  - name: retromarcia
+    damage: 100
+    description: 
     elementCost: 5
     enflictStatus: 

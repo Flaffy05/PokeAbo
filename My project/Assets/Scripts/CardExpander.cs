@@ -1,0 +1,55 @@
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+public class CardExpander : MonoBehaviour, IPointerClickHandler
+{
+    private Vector3 initialScale; // La scala vera originale, salvata solo una volta
+    private Vector3 originalScale; // La scala a cui torni quando chiudi
+    private bool isExpanded = false;
+
+    public float expandedScale = 1.5f;
+    public float animationSpeed = 10f;
+
+    private Coroutine scaleCoroutine;
+
+    private void Start()
+    {
+        initialScale = transform.localScale;
+        originalScale = initialScale;
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        isExpanded = !isExpanded;
+
+        // Definisci la scala di ritorno quando viene cliccato
+        Vector3 targetScale = isExpanded ? initialScale * expandedScale : new Vector3(16f, 16f, 1f);
+
+        if (isExpanded)
+        {
+            transform.SetAsLastSibling(); // Mette la carta in primo piano (opzionale)
+        }
+
+        if (scaleCoroutine != null)
+            StopCoroutine(scaleCoroutine);
+
+        scaleCoroutine = StartCoroutine(AnimateScale(targetScale));
+    }
+
+    private System.Collections.IEnumerator AnimateScale(Vector3 target)
+    {
+        // Anima fino a che la carta non raggiunge la scala target
+        while (Vector3.Distance(transform.localScale, target) > 0.01f)
+        {
+            transform.localScale = Vector3.Lerp(transform.localScale, target, Time.deltaTime * animationSpeed);
+            yield return null;
+        }
+
+        // Assicurati che la carta arrivi alla scala target esatta
+        transform.localScale = target;
+    }
+}
+
+
+
+

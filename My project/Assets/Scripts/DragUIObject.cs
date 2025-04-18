@@ -34,7 +34,7 @@ public class DragUIObject : MonoBehaviour, IDragHandler, IPointerDownHandler, IE
     public void OnDrag(PointerEventData eventData)
     {
 
-        rectTransform.localScale = new Vector3(30f, 30f, 1f);
+        rectTransform.localScale = new Vector3(16f, 16f, 1f);
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(canvas.GetComponent<RectTransform>(), eventData.position, eventData.pressEventCamera, out Vector2 localPointerPosition))
         {
             localPointerPosition /= canvas.scaleFactor;

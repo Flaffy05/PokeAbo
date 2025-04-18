@@ -18,7 +18,7 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
     [SerializeField] private GameObject glowEffect;
     [SerializeField] private GameObject playArrow;
 
-    private bool isPlayed = false; //  FLAG per bloccare la carta
+    private bool isPlayed = false; // FLAG per bloccare la carta
 
     void Awake()
     {
@@ -32,7 +32,7 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
 
     void Update()
     {
-        if (isPlayed) return; //  Blocca tutto se la carta Ë giocata
+        if (isPlayed) return; // Blocca tutto se la carta √® giocata
 
         switch (currentState)
         {
@@ -41,14 +41,20 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
                 break;
             case 2:
                 HandleDragState();
-                if (!Input.GetMouseButton(0)) // Se rilascio il mouse
-                {
-                    TransitionToState0();
-                }
                 break;
             case 3:
                 HandlePlayState();
                 break;
+        }
+
+        // Controlla rilascio tasto sinistro del mouse
+        if (Input.GetMouseButtonUp(0))
+        {
+            // Se non hai giocato la carta, torna allo stato 0
+            if (!isPlayed && currentState != 0)
+            {
+                TransitionToState0();
+            }
         }
     }
 
@@ -93,7 +99,7 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (currentState != 2 || isPlayed) return; //  Blocca il drag se Ë gi‡ giocata
+        if (currentState != 2 || isPlayed) return; // Blocca il drag se √® gi√† giocata
 
         Vector2 localPointerPosition;
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(canvas.GetComponent<RectTransform>(), eventData.position, eventData.pressEventCamera, out localPointerPosition))
@@ -111,7 +117,6 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
     private void HandleHoverState()
     {
         glowEffect.SetActive(true);
-        rectTransform.localScale = originalScale;
     }
 
     private void HandleDragState()
@@ -121,13 +126,13 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
 
     private void HandlePlayState()
     {
-        // Non fa pi˘ niente perchÈ la carta Ë gi‡ giocata
+        // Non fa pi√π niente perch√© la carta √® gi√† giocata
     }
 
     private void PlayCard()
     {
         currentState = 3;
-        isPlayed = true; //  BLOCCA definitivamente
+        isPlayed = true; // BLOCCA definitivamente
         playArrow.SetActive(false);
         glowEffect.SetActive(false);
 
@@ -139,3 +144,4 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
         // this.enabled = false;
     }
 }
+
