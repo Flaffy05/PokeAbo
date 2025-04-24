@@ -119,6 +119,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &12749425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 12749426}
+  - component: {fileID: 12749427}
+  m_Layer: 5
+  m_Name: FieldManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &12749426
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12749425}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 805568241}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &12749427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12749425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98306db6441bbaf4aa6b2729663b1fa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deckManager: {fileID: 1543986586}
+  cardPrefab: {fileID: 1503431856020768813, guid: 424ea417a2035304b900b1ffe2ca422b, type: 3}
+  fieldSlots:
+  - {fileID: 629993009}
+  - {fileID: 1368137979}
+  - {fileID: 1093006743}
+  - {fileID: 1854659455}
+  - {fileID: 1546341394}
+  cardsInField: []
 --- !u!1 &27844840
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,7 +224,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cbfbab5698018e458d60b1b34e353aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deckManager: {fileID: 0}
   cardPrefab: {fileID: 1503431856020768813, guid: 424ea417a2035304b900b1ffe2ca422b, type: 3}
   handTransform: {fileID: 977910382}
   fanSpread: 7.5
@@ -175,6 +231,7 @@ MonoBehaviour:
   verticalSpacing: 60
   cardsInHand:
   - {fileID: 27844840}
+  FieldManager: {fileID: 12749427}
 --- !u!1 &461278579
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,6 +944,7 @@ RectTransform:
   - {fileID: 977910382}
   - {fileID: 1543986585}
   - {fileID: 623236381}
+  - {fileID: 12749426}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1153,17 +1211,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1368137978}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10.000002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 623236381}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -45.000008, y: -135}
   m_SizeDelta: {x: 190, y: 270}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1368137980
 MonoBehaviour:
   m_ObjectHideFlags: 0
