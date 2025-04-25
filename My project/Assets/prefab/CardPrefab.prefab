@@ -599,7 +599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d26e0acc4ea7c24d93073e5992fd67a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSensitivity: 0.4
+  movementSensitivity: 0.01
 --- !u!114 &4252468291613567870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -612,7 +612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85a0b17984d0a3e4ca12b6c752342716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectScale: 1.1
+  selectScale: 10
   cardPlay: {x: 0, y: 0}
   playPosition: {x: 0, y: 0, z: 0}
   glowEffect: {fileID: 5927212361789242345}
