@@ -1,16 +1,20 @@
 using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.EventSystems;
 
 public class DeckManager : MonoBehaviour
 {
     public List<Card> allCards = new List<Card>();
     private int currentIndex = 0;
 
+    public string playerDeckName = "PileDeck"; // Nome del mazzo del player
+
     void Start()
     {
-        Card[] cards = Resources.LoadAll<Card>("Deck_Brainrot");
+        Card[] cards = Resources.LoadAll<Card>("Deck_Droidi");
         allCards.AddRange(cards);
+
+        ShuffleDeck(); // Mischia il mazzo
 
         HandManager hand = FindObjectOfType<HandManager>();
         for (int i = 0; i < 5; i++)
@@ -21,27 +25,56 @@ public class DeckManager : MonoBehaviour
 
     public void OnDeckSlotClicked()
     {
-        HandManager handManager = FindObjectOfType<HandManager>();
-        if (handManager != null)
+        PointerEventData pointerData = new PointerEventData(EventSystem.current)
         {
-            DrawCard(handManager);
+            position = Input.mousePosition
+        };
+
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(pointerData, results);
+
+        foreach (RaycastResult result in results)
+        {
+            if (result.gameObject.name == playerDeckName)
+            {
+                HandManager handManager = FindObjectOfType<HandManager>();
+                if (handManager != null)
+                {
+                    DrawCard(handManager);
+                }
+                return;
+            }
         }
+
+        Debug.Log("Non puoi pescare da questo mazzo!");
     }
 
     public void DrawCard(HandManager handManager)
     {
-        if (allCards.Count == 0 || currentIndex >= allCards.Count) // Controllo se il mazzo è vuoto
+        if (allCards.Count == 0 || currentIndex >= allCards.Count)
         {
             Debug.Log("No more cards in the deck.");
-            return; // Non pesca più carte se il mazzo è vuoto
+            return;
         }
 
         Card nextCard = allCards[currentIndex];
         handManager.Pesca(nextCard);
 
-        currentIndex++; // Avanza al prossimo indice
+        currentIndex++;
+    }
+
+    private void ShuffleDeck()
+    {
+        for (int i = 0; i < allCards.Count; i++)
+        {
+            int randomIndex = Random.Range(i, allCards.Count);
+            Card temp = allCards[i];
+            allCards[i] = allCards[randomIndex];
+            allCards[randomIndex] = temp;
+        }
     }
 }
+
 
 
 

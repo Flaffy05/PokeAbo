@@ -25,36 +25,56 @@ public class DragUIObject : MonoBehaviour, IDragHandler, IPointerDownHandler, IE
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            canvas.transform as RectTransform,
+            eventData.position,
+            eventData.pressEventCamera,
+            out originalLocalPointerPosition
+        );
 
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvas.GetComponent<RectTransform>(), eventData.position, eventData.pressEventCamera, out originalLocalPointerPosition);
         originalPanelLocalPosition = rectTransform.localPosition;
         originalParent = transform.parent;
     }
 
+
+
+
     public void OnDrag(PointerEventData eventData)
     {
-
         rectTransform.localScale = new Vector3(16f, 16f, 1f);
-        if (RectTransformUtility.ScreenPointToLocalPointInRectangle(canvas.GetComponent<RectTransform>(), eventData.position, eventData.pressEventCamera, out Vector2 localPointerPosition))
+
+        if (RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            canvas.transform as RectTransform,
+            eventData.position,
+            eventData.pressEventCamera,
+            out Vector2 localPointerPosition))
         {
-            localPointerPosition /= canvas.scaleFactor;
-            Vector3 offsetToOriginal = (localPointerPosition - originalLocalPointerPosition) * movementSensitivity;
-            rectTransform.localPosition = originalPanelLocalPosition + offsetToOriginal;
+            Vector2 offset = localPointerPosition - originalLocalPointerPosition;
+            rectTransform.localPosition = originalPanelLocalPosition + (Vector3)offset;
         }
     }
 
+
+
+
+
     public void OnEndDrag(PointerEventData eventData)
     {
-
         GameObject[] allSlots = GameObject.FindGameObjectsWithTag("Slot");
 
         foreach (GameObject slot in allSlots)
         {
+            // Se lo slot è uno di quelli proibiti, salta
+            string slotName = slot.name;
+            if (slotName == "OpponentBench1" || slotName == "OpponentBench2" || slotName == "OpponentBench3" || slotName == "OpponentActiveCard")
+            {
+                continue;
+            }
+
             RectTransform slotRect = slot.GetComponent<RectTransform>();
 
             if (RectTransformUtility.RectangleContainsScreenPoint(slotRect, Input.mousePosition, eventData.pressEventCamera))
             {
-                string slotName = slot.name;
                 string cardType = cardDisplay.cardData.element.name.ToLower();
 
                 bool canPlace =
@@ -79,9 +99,8 @@ public class DragUIObject : MonoBehaviour, IDragHandler, IPointerDownHandler, IE
                 }
             }
         }
-
-        // Nessuno slot valido → torna alla posizione originale
-        rectTransform.localPosition = originalPanelLocalPosition;
+    // Nessuno slot valido → torna alla posizione originale
+    rectTransform.localPosition = originalPanelLocalPosition;
     }
     
     // Funzione per permettere di rimuovere la carta dallo slot, se necessario.
