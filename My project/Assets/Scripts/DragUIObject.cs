@@ -60,16 +60,21 @@ public class DragUIObject : MonoBehaviour, IDragHandler, IPointerDownHandler, IE
 
     public void OnEndDrag(PointerEventData eventData)
     {
-
         GameObject[] allSlots = GameObject.FindGameObjectsWithTag("Slot");
 
         foreach (GameObject slot in allSlots)
         {
+            // Se lo slot è uno di quelli proibiti, salta
+            string slotName = slot.name;
+            if (slotName == "OpponentBench1" || slotName == "OpponentBench2" || slotName == "OpponentBench3" || slotName == "OpponentActiveCard")
+            {
+                continue;
+            }
+
             RectTransform slotRect = slot.GetComponent<RectTransform>();
 
             if (RectTransformUtility.RectangleContainsScreenPoint(slotRect, Input.mousePosition, eventData.pressEventCamera))
             {
-                string slotName = slot.name;
                 string cardType = cardDisplay.cardData.element.name.ToLower();
 
                 bool canPlace =
@@ -94,9 +99,8 @@ public class DragUIObject : MonoBehaviour, IDragHandler, IPointerDownHandler, IE
                 }
             }
         }
-
-        // Nessuno slot valido → torna alla posizione originale
-        rectTransform.localPosition = originalPanelLocalPosition;
+    // Nessuno slot valido → torna alla posizione originale
+    rectTransform.localPosition = originalPanelLocalPosition;
     }
     
     // Funzione per permettere di rimuovere la carta dallo slot, se necessario.
