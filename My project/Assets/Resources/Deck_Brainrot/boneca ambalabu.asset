@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
-  m_Name: monkini taxini
+  m_Name: boneca ambalabu
   m_EditorClassIdentifier: 
-  cardId: 27
-  element: {fileID: 11400000, guid: c8a99e31866556548b8694b796adb6a1, type: 2}
+  cardId: 58
+  element: {fileID: 11400000, guid: 884147a6d21fb5b44bdfae23c6a96ac5, type: 2}
   status: {fileID: 0}
-  displayName: monkini taxini
-  hp: 90
-  reatreatCost: 0
-  photo: {fileID: -4026071387803741159, guid: b4f9d20516560b141945bb37393687a3, type: 3}
+  displayName: Boneca Ambalabu
+  hp: 150
+  reatreatCost: 3
+  photo: {fileID: 9128694279801400036, guid: a79c98ac51e89794c9dbe2fa98d8297a, type: 3}
   attacchi:
-  - name: riparazione taxi
-    damage: 0
-    description: assegna 2 energia a se stesso, toglie 10 di danno a se stesso
+  - name: calcio
+    damage: 10
+    description: Assegna 1 energia extra a se stesso
     elementCost: 1
     enflictStatus: 
-  - name: retromarcia
-    damage: 100
+  - name: Leccata Rana
+    damage: 120
     description: 
-    elementCost: 5
+    elementCost: 4
     enflictStatus: 

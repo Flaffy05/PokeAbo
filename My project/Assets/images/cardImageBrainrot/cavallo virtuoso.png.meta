@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 600c419959fce3a42a6acc52248c2cfa
+guid: fbc0ab942eb44614eaca0c769a6d4c63
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2350626362179864991
-    second: mega drone_0
+      213: 8995772235568438364
+    second: cavallo virtuoso_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mega drone_0
+      name: cavallo virtuoso_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1792
-        height: 1024
+        width: 916
+        height: 613
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f994665e83a1f9020800000000000000
-      internalID: 2350626362179864991
+      spriteID: c5cd065cf2767dc70800000000000000
+      internalID: 8995772235568438364
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      mega drone_0: 2350626362179864991
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

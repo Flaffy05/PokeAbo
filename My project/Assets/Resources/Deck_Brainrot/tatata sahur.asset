@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b618ab637d48114f869aa7667f7a58d, type: 3}
+  m_Name: tatata sahur
+  m_EditorClassIdentifier: 
+  cardId: 55
+  element: {fileID: 11400000, guid: 022d2f242cb94fd4692395781a57d50b, type: 2}
+  status: {fileID: 0}
+  displayName: Tatata Sahur
+  hp: 50
+  reatreatCost: 1
+  photo: {fileID: -6683587360133303078, guid: 2f46341d4a4c1c8439aa70c34df40c1d, type: 3}
+  attacchi:
+  - name: te tossico
+    damage: 20
+    description: avvelena il nemico per 2 turni
+    elementCost: 2
+    enflictStatus: 

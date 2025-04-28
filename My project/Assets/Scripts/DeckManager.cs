@@ -11,7 +11,7 @@ public class DeckManager : MonoBehaviour
 
     void Start()
     {
-        Card[] cards = Resources.LoadAll<Card>("Deck_Droidi");
+        Card[] cards = Resources.LoadAll<Card>("Deck_Brainrot");
         allCards.AddRange(cards);
 
         ShuffleDeck(); // Mischia il mazzo
