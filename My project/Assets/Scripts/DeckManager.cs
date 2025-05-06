@@ -7,20 +7,31 @@ public class DeckManager : MonoBehaviour
     public List<Card> allCards = new List<Card>();
     private int currentIndex = 0;
 
-    public string playerDeckName = "PileDeck"; // Nome del mazzo del player
+    private string currentDeckName = "";
 
-    void Start()
+    public void LoadDeck(string deckName)
     {
-        Card[] cards = Resources.LoadAll<Card>("Deck_Brainrot");
-        allCards.AddRange(cards);
+        allCards.Clear();
+        currentIndex = 0;
+        currentDeckName = deckName;
 
-        ShuffleDeck(); // Mischia il mazzo
+        Card[] cards = Resources.LoadAll<Card>(deckName);
+
+        if (cards.Length == 0)
+        {
+            Debug.LogWarning("Nessuna carta trovata nel mazzo: " + deckName);
+        }
+
+        allCards.AddRange(cards);
+        ShuffleDeck();
 
         HandManager hand = FindObjectOfType<HandManager>();
         for (int i = 0; i < 5; i++)
         {
             DrawCard(hand);
         }
+
+        Debug.Log($"Mazzo '{deckName}' caricato con {allCards.Count} carte.");
     }
 
     public void OnDeckSlotClicked()
@@ -35,15 +46,15 @@ public class DeckManager : MonoBehaviour
 
         foreach (RaycastResult result in results)
         {
-            if (result.gameObject.name == playerDeckName)
-            {
+            //if (result.gameObject.name == currentDeckName)
+            //{
                 HandManager handManager = FindObjectOfType<HandManager>();
                 if (handManager != null)
                 {
                     DrawCard(handManager);
                 }
                 return;
-            }
+            //}
         }
 
         Debug.Log("Non puoi pescare da questo mazzo!");
@@ -74,6 +85,7 @@ public class DeckManager : MonoBehaviour
         }
     }
 }
+
 
 
 
